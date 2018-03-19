@@ -1,7 +1,7 @@
 {
   "name": "ulog",
   "version": "0.1.0",
-  "description": "a web practice project.",
+  "description": "A web practice project.",
   "main": "index.js",
   "scripts": {
     "build": "rollup -c && cp ./out/* ./htdocs/js",
@@ -20,22 +20,4 @@
     "url": "https://github.com/QianHuiS/ulog/issues"
   },
   "homepage": "https://github.com/QianHuiS/ulog#readme"
-}
-"babel": {
-    "presets": [
-        [
-            "env",
-            {
-                "targets": {
-                    "browsers": [
-                        "last 2 versions"
-                    ]
-                },
-                "modules": false
-            }
-        ]
-    ],
-    "plugins": [
-        "external-helpers"
-    ]
 }
